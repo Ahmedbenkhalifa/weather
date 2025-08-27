@@ -1,0 +1,25 @@
+{
+  "semi": false,
+  "tabWidth": 2,
+  "printWidth": 100,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "jsxSingleQuote": true,
+  "bracketSpacing": true,
+  "plugins": ["@ianvs/prettier-plugin-sort-imports"],
+  "importOrder": [
+    "^react$",
+    "^react-dom",
+    "<THIRD_PARTY_MODULES>",
+    "^@app/(.*)$",
+    "^@common/(.*)$",
+    "^@lib/(.*)$",
+    "^@config(.*)$",
+    "^@routes(.*)$",
+    "^@types(.*)$",
+    "^@utils(.*)$",
+    "^[./]"
+  ],
+  "importOrderTypeScriptVersion": "5.0.0",
+  "importOrderCaseSensitive": false
+}
